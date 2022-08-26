@@ -29,20 +29,20 @@ class MyPost extends HTMLElement{
                         <h3>${this.ubication}</h3>
                         
                     </div>
-                    <img src="./public/images/3points.svg">
+                    <img src="./images/3points.svg">
                 </div>
-                <div class= "Iconos" src= "./public/images"
+                <div class= "Iconos" src= "./images"
             </div>
             <div class="Content">
                 <img src="${this.postPhoto}"
             </div>
             <div class="Iconos">
                 <div class="Default">
-                    <img src="./public/images/chat.svg">
-                    <img src="./public/images/like.svg">
-                    <img src="./public/images/share.svg">
+                    <img src="./images/chat.svg">
+                    <img src="./images/like.svg">
+                    <img src="./images/share.svg">
             </div>
-                    <img src="./public/images/guardar.svg">
+                    <img src="./images/guardar.svg">
             <div class="Description">
                 <h3>${this.like}</h3>
             <div class="Info">
