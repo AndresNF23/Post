@@ -49,7 +49,7 @@ class MyPost extends HTMLElement{
                 <h3>${this.user}</h3>
                 <h3>${this.description}</h3>
             </div>
-            <p>${this.coments}</p>
+            <p>${this.comments}</p>
             <p class="Date"> ${this.date}</p>
             </div>
             

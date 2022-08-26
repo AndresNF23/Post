@@ -16,9 +16,10 @@ class AppContainer extends HTMLElement{
         user="Jhon Sebastian"
         ubication="I Dont Know"
         postPhoto="./images/hamster.png "
-        likes="23 Likes"
+        like="23 Likes"
         description="Hi"
-        coments="20"
+        comments="20"
+        date="20 Agost"
         ></my-post>
         `
     };
