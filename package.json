@@ -13,5 +13,13 @@
   "dependencies": {
     "express": "^4.18.1"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresNF23/Post.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndresNF23/Post/issues"
+  },
+  "homepage": "https://github.com/AndresNF23/Post#readme"
 }

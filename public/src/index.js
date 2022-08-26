@@ -12,14 +12,14 @@ class AppContainer extends HTMLElement{
 
     render(){
         this.shadowRoot.innerHTML = `
-        <my-post pictureprofile="https://th.bing.com/th/id/OIP.OXvzNVQDzwc_tKfpWwJM7wHaF7?pid=ImgDet&rs=1.png" 
+        <my-post pictureprofile="./images/fotoinsta.jpg"
         user="Jhon Sebastian"
         ubication="I Dont Know"
-        postPhoto=""
+        postPhoto="./images/hamster.png "
         likes="23 Likes"
         description="Hi"
-        coments="20">
-        </my-post>
+        coments="20"
+        ></my-post>
         `
     };
 }

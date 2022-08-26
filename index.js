@@ -2,4 +2,4 @@ const express = require('express');
 const server = express();
 
 server.use(express.static(__dirname + '/public'));
-server.listen(808, () => console.log('servidor corriendo'));
+server.listen(8080,() => console.log('servidor corriendo'));

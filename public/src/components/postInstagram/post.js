@@ -1,7 +1,7 @@
 class MyPost extends HTMLElement{
 
     static get observedAttributes() {
-        return["pictureprofile", "user", "ubication", "postPhoto", "likes", "description", "comments", "when"];   
+        return["pictureprofile", "user", "ubication", "postPhoto", "like", "description", "comments", "date"];   
     }
 
     constructor(){
@@ -23,13 +23,35 @@ class MyPost extends HTMLElement{
         <section>
             <div class="Header">
                 <div class= "User">
-                    <img src= "./images/pictureprofile.png" alt= "PictureProfile">
+                    <img src= "${this.pictureprofile}"
                     <div class = "Username">
                         <h3>${this.user}</h3>
                         <h3>${this.ubication}</h3>
+                        
+                    </div>
+                    <img src="./public/images/3points.svg">
                 </div>
-            <div class> = "Description">
-            
+                <div class= "Iconos" src= "./public/images"
+            </div>
+            <div class="Content">
+                <img src="${this.postPhoto}"
+            </div>
+            <div class="Iconos">
+                <div class="Default">
+                    <img src="./public/images/chat.svg">
+                    <img src="./public/images/like.svg">
+                    <img src="./public/images/share.svg">
+            </div>
+                    <img src="./public/images/guardar.svg">
+            <div class="Description">
+                <h3>${this.like}</h3>
+            <div class="Info">
+                <h3>${this.user}</h3>
+                <h3>${this.description}</h3>
+            </div>
+            <p>${this.coments}</p>
+            <p class="Date"> ${this.date}</p>
+            </div>
             
     </section>`;
     }
