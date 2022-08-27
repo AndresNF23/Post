@@ -1,7 +1,7 @@
 class MyPost extends HTMLElement{
 
     static get observedAttributes() {
-        return["pictureprofile", "user", "ubication", "postPhoto", "like", "description", "comments", "date"];   
+        return["pictureprofile", "user", "ubication", "postphoto", "like", "description", "comments", "date"];   
     }
 
     constructor(){
@@ -34,7 +34,7 @@ class MyPost extends HTMLElement{
                 <div class= "Iconos" src= "./images"
             </div>
             <div class="Content">
-                <img src="${this.postPhoto}"
+                <img src="${this.postphoto}"
             </div>
             <div class="Iconos">
                 <div class="Default">

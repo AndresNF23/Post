@@ -15,7 +15,7 @@ class AppContainer extends HTMLElement{
         <my-post pictureprofile="./images/fotoinsta.jpg"
         user="Jhon Sebastian"
         ubication="I Dont Know"
-        postPhoto="./images/hamster.png "
+        postphoto="./images/hamster.png "
         like="23 Likes"
         description="Hi"
         comments="20"
